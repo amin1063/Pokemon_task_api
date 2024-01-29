@@ -1,0 +1,38 @@
+.infinite-content{
+    width: 100% !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    overflow: hidden !important;
+    flex-basis: auto !important;
+}
+
+.css-56sn9p-MuiGrid-root{
+    min-width:fit-content
+}
+
+.modal-detail{
+    width: 60% !important;
+    background-color: rgb(218,218,218);
+    overflow:hidden;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.modal-img{
+    height: 100%;
+     width: 100%;
+     object-fit: contain
+}
+
+@media (max-width: 800px){
+    .modal-detail{
+        width: 100% !important;
+        overflow: scroll;
+    }
+
+    .modal-img{
+        height: 80%;
+        margin-left: 50%;
+    }
+
+}
